@@ -22,9 +22,15 @@ public class Ability {
         this.numUsesRemaining = numUsesMax;
         this.description = description;
     }
+    
+    private final String abilitiesNames (String name) {
+        Scanner abilityInfo = new Scanner(FileReader());
+    }
    
     public void activate(Pokemon opponent) {
         opponent.takeDamage(damage);
+        numUsesRemaining --;
+        
     }
     
 }
