@@ -23,16 +23,16 @@ public class Ability {
         this.description = description;
     }
     
-    private final String abilitiesNames (String name) {
-        Scanner abilityInfo = new Scanner(FileReader());
-    }
+//    private final String abilitiesNames (String name) {
+//        Scanner abilityInfo = new Scanner(FileReader());
+//    }
    
     public void activate(Pokemon opponent) {
         opponent.takeDamage(damage);
         numUsesRemaining --;
         
     }
-
+    
     public boolean hasRemainingUses() {
         return numUsesRemaining > 0;
     }
