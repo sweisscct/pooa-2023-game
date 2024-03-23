@@ -4,13 +4,14 @@
  */
 package gameproject;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Lecturer
  */
-public class Pokemon {
-    public void takeDamage(int damage) {
-        
-        System.out.println("Remaining health");
-    }
+public interface InitialiseInterface {
+    public ArrayList<Ability> loadAbilities(); 
+    public ArrayList<Pokemon> loadPokemon();
+    
 }
