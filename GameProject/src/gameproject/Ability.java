@@ -9,8 +9,22 @@ package gameproject;
  * @author Lecturer
  */
 public class Ability {
-    private int damage;
+    private final String name;
+    private final int damage;
+    private int numUsesRemaining;
+    private final int numUsesMax;
+    private final String description;
+
+    public Ability(String name, int damage, int numUsesMax, String description) {
+        this.name = name;
+        this.damage = damage;
+        this.numUsesMax = numUsesMax;
+        this.numUsesRemaining = numUsesMax;
+        this.description = description;
+    }
+   
     public void activate(Pokemon opponent) {
         opponent.takeDamage(damage);
     }
+    
 }
