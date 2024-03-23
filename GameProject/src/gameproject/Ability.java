@@ -32,5 +32,9 @@ public class Ability {
         numUsesRemaining --;
         
     }
+
+    public boolean hasRemainingUses() {
+        return numUsesRemaining > 0;
+    }
     
 }
