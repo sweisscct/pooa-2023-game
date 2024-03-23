@@ -14,7 +14,10 @@ public class GameProject {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Ability[] pokemon1Abilities = new Ability[4];
+        Ability[] pokemon2Abilities = new Ability[4];
+        
+        pokemon1Abilities[0] = new Ability("Punch", 10, 20, "Not just a normal punch!");
     }
     
 }

@@ -15,6 +15,28 @@ public class Ability {
     private final int numUsesMax;
     private final String description;
 
+    public String getName() {
+        return name;
+    }
+
+    public int getDamage() {
+        return damage;
+    }
+
+    public int getNumUsesRemaining() {
+        return numUsesRemaining;
+    }
+
+    public int getNumUsesMax() {
+        return numUsesMax;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+    
+    
+
     public Ability(String name, int damage, int numUsesMax, String description) {
         this.name = name;
         this.damage = damage;
