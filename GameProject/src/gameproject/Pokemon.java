@@ -14,10 +14,10 @@ public class Pokemon {
     private final String name;
     private int remainingHealth;
     private final int maxHealth;
-    private Ability[] abilities;
+    private Ability2[] abilities;
 
     //constructor for variables
-    public Pokemon(String name, int maxHealth, Ability[] abilities) {
+    public Pokemon(String name, int maxHealth, Ability2[] abilities) {
         this.name = name;
         this.maxHealth = maxHealth;
         this.remainingHealth = maxHealth;
@@ -32,7 +32,7 @@ public class Pokemon {
         return remainingHealth;
     }
 
-    public Ability[] getAbilities() {
+    public Ability2[] getAbilities() {
         return abilities;
 
     }

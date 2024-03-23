@@ -8,7 +8,7 @@ package gameproject;
  *
  * @author Lecturer
  */
-public class Ability {
+public class Ability2 {
     private final String name;
     private final int damage;
     private int numUsesRemaining;

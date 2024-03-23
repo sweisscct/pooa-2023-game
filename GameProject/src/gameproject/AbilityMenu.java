@@ -15,9 +15,9 @@ public class AbilityMenu {
     public void displayMenu(Pokemon currentPokemon, Pokemon targetPokemon) {
         System.out.println("Select your ability:");
         Scanner sc = new Scanner(System.in);
-        Ability[] abilities = currentPokemon.getAbilities();
+        Ability2[] abilities = currentPokemon.getAbilities();
         int optionNum = 1;
-        for (Ability ability : abilities) {
+        for (Ability2 ability : abilities) {
             System.out.println(optionNum +": " + ability.getName());
             System.out.println(ability.getDescription());
             System.out.println(ability.getNumUsesRemaining() + " uses remaining");

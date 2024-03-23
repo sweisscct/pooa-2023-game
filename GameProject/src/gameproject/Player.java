@@ -9,7 +9,15 @@ package gameproject;
  * @author Lecturer
  */
 public class Player {
+    Pokemon pokemon;
     Pokemon currentPokemon;
+
+    public Player(Pokemon pokemon) {
+        this.pokemon = pokemon;
+        currentPokemon = pokemon;
+    }
+    
+    
     public void switchPokemon(Pokemon newPokemon) {
         currentPokemon = newPokemon;
     }

@@ -11,7 +11,7 @@ import java.util.ArrayList;
  * @author Lecturer
  */
 public interface InitialiseInterface {
-    public ArrayList<Ability> loadAbilities(); 
+    public ArrayList<Ability2> loadAbilities(); 
     public ArrayList<Pokemon> loadPokemon();
     
 }
